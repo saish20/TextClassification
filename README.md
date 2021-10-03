@@ -8,4 +8,4 @@ A Feedforward neural network for text classification consisting of:
 
 – Output layer with a softmax activation 
 
-- Stochastic Gradient Descent (SGD) algorithm with back-propagation to learn the weights of the Neural network
+– Stochastic Gradient Descent (SGD) algorithm with back-propagation to learn the weights of the Neural network
