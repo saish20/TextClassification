@@ -14,7 +14,7 @@ A Feedforward neural network for text classification consisting of:
 
 
 
-#Results:
+# Results:
 
 
 ![image](https://user-images.githubusercontent.com/17896055/135775575-fc55f33f-2ed7-4be2-a2e7-7136497356f3.png)
