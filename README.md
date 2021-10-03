@@ -9,3 +9,18 @@ A Feedforward neural network for text classification consisting of:
 – Output layer with a softmax activation 
 
 – Stochastic Gradient Descent (SGD) algorithm with back-propagation to learn the weights of the Neural network
+
+
+
+
+
+#Results:
+
+Model	Precision	Recall	F1-Score	Accuracy
+Average Embedding	0.792	0.7888	0.7882	0.7888
+Average Embedding (Pre-trained)	0.8745	0.8722	0.8821	0.8722
+Average Embedding (Pre-trained) + X hidden layers	0.868	0.8655	0.8662	0.8655
+![image](https://user-images.githubusercontent.com/17896055/135775575-fc55f33f-2ed7-4be2-a2e7-7136497356f3.png)
+
+
+Average Embedding (Pre-trained) model is better than the other two as primarily because of the better performance which is evident from the metrics. One reason that this model performs better is the use of pretrained vectors as compared to the random embedding weights used for the Average Emdedding model for which the weights were randomly assigned. As for the Average Embedding (Pre-trained) + X hidden layers model, adding another hidden layer may have added uncessary complexity in the architecture which did not contribute as aexpected but it still performs better than the Average Embedding model.
