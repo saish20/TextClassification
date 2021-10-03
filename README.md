@@ -16,10 +16,7 @@ A Feedforward neural network for text classification consisting of:
 
 #Results:
 
-Model	Precision	Recall	F1-Score	Accuracy
-Average Embedding	0.792	0.7888	0.7882	0.7888
-Average Embedding (Pre-trained)	0.8745	0.8722	0.8821	0.8722
-Average Embedding (Pre-trained) + X hidden layers	0.868	0.8655	0.8662	0.8655
+
 ![image](https://user-images.githubusercontent.com/17896055/135775575-fc55f33f-2ed7-4be2-a2e7-7136497356f3.png)
 
 
